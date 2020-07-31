@@ -1,4 +1,4 @@
-# contenteditable_code_block
+# Contenteditable Code Block
 
 A Google Chrome extension that turns `<pre>` tags that are often used as code blocks
  into editable blocks.
@@ -18,7 +18,7 @@ To install:
 1. Run the following command to pull down the files:
 
   ```
-  git clone git@github.com:philipjewell/contenteditable_code_block.git
+  git clone git@github.com:philipjewell/contenteditable-code-block.git
   ```
 
 1. Navigate to: `chrome://extensions/`
