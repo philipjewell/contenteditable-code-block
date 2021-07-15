@@ -7,7 +7,7 @@
 
   "content_scripts": [
   {
-  "matches": ["*://github.com/*", "*://app.getguru.com/*", "*://trello.com/*", "*://stackoverflow.com/questions/*", "*://unix.stackexchange.com/questions/*", "*://*.atlassian.net/*", "*://*.zendesk.com/*"],
+  "matches": ["*://docs.aws.amazon.com/*", "*://github.com/*", "*://app.getguru.com/*", "*://trello.com/*", "*://stackoverflow.com/questions/*", "*://unix.stackexchange.com/questions/*", "*://*.atlassian.net/*", "*://*.zendesk.com/*"],
     "js": ["contenteditable_codeblock.js"],
     "run_at": "document_end"
   }
