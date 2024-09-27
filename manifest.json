@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "author": "Philip Jewell (https://philipjewell.com)",
   "name": "contenteditable code block",
   "description": "This extension turns common websites with code blocks contenteditable for easy editing.",
@@ -11,9 +11,12 @@
     "js": ["contenteditable_codeblock.js"],
     "run_at": "document_end"
   }
-  ], 
+  ],
   "icons": {
     "128": "icon.png"
   },
-  "permissions": ["webRequest","*://*/"]
+  "host_permissions": [
+    "*://*/"
+  ],
+  "permissions": ["webRequest"]
 }
