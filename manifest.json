@@ -3,7 +3,7 @@
   "author": "Philip Jewell (https://philipjewell.com)",
   "name": "contenteditable code block",
   "description": "This extension turns common websites with code blocks contenteditable for easy editing.",
-  "version": "0.1",
+  "version": "0.2",
 
   "content_scripts": [
   {
