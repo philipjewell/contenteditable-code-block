@@ -1,6 +1,6 @@
 window.onload=setTimeout(function(){
   if ( /\.atlassian\.net\/wiki\//.test(window.location.href) == true ) { //if its confluence, make the td.code editable
-    var contenteditableBlock = document.querySelectorAll("td[class^=code]");
+    var contenteditableBlock = document.querySelectorAll("td[class^=code-block]");
   } else { //if its not confluence, make the pre tag editable
     var contenteditableBlock = document.querySelectorAll("pre");
   }
